@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+ <title>Умовні знаки</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+ <link href="css/styles.css" rel="stylesheet">
+</html>
+
+<body>
+  <!-- Бокове меню -->
+ <div class="menubox rounded-5">
+   <p align="center"><b>ТАБЛИЦІ УМОВНИХ ЗНАКІВ</b></p>
+   <ul class="ul-menue">
+     <li class="menu"> <a class="menu" href="#control_points">ГЕОДЕЗИЧНІ ПУНКТИ</a></li>
+     <li class="menu"> <a href="#buildings">БУДІВЛІ, БУДИНКИ ТА ЇХ ЧАСТИНИ</a></li>
+     <li class="menu"> <a href="#cult">ОБ’ЄКТИ  КУЛЬТОВОГО,  КУЛЬТУРНОГО  ТА  СОЦІАЛЬНОГО ПРИЗНАЧЕННЯ</a></li>
+     <li class="menu"> <a href="#samples-maps">ПРИКЛАДИ ЗОБРАЖЕННЯ НАСЕЛЕНИХ ПУНКТІВ</a></li>
+     <li class="menu"> <a href="#industrial">ОБ’ЄКТИ ПРОМИСЛОВІ, КОМУНАЛЬНІ ТА СІЛЬСЬКОГОСПОДАРСЬКОГО ВИРОБНИЦТВА</a></li>
+     <li class="menu"> <a href="#railways">ЗАЛІЗНИЦІ ТА ЗАЛІЗНИЧНІ СПОРУДИ</a></li>
+     <li class="menu"> <a href="#roads">АВТОМОБІЛЬНІ ТА ГРУНТОВІ ДОРОГИ, СТЕЖКИ</a></li>
+     <li class="menu"> <a href="#gidrography">ГІДРОГРАФІЯ</a></li>
+     <li class="menu"> <a href="#gidro-industrial">ОБ’ЄКТИ ГІДРОТЕХНІЧНІ, ВОДНОГО ТРАНСПОРТУ І ВОДОПОСТАЧАННЯ</a></li>
+     <li class="menu"> <a href="#bridges">МОСТИ, ШЛЯХОПРОВОДИ ТА ПЕРЕПРАВИ</a></li>
+     <li class="menu"> <a href="#bridge-samples">ПРИКЛАДИ ЗОБРАЖЕННЯ МОСТІВ І ШЛЯХОПРОВОДІВ</a></li>
+     <li class="menu"> <a href="#relief">РЕЛЬЄФ</a></li>
+     <li class="menu"> <a href="#vegetation">РОСЛИННІСТЬ</a></li>
+     <li class="menu"> <a href="#soils">ГРУНТИ ТА МІКРОФОРМИ ЗЕМНОЇ ПОВЕРХНІ</a></li>
+     <li class="menu"> <a href="#swamps">БОЛОТА ТА СОЛОНЧАКИ</a></li>
+     <li class="menu"> <a href="#samples-combine">ПРИКЛАДИ ПОЄДНАННЯ ЗОБРАЖЕННЬ РОСЛИННОСТІ ТА ГРУНТІВ</a></li>
+     <li class="menu"> <a href="#fences">ОГОРОЖІ</a></li>
+     <li class="menu"> <a href="#borders">КОРДОНИ ТА МЕЖІ</a></li>
+     <li class="menu"> <a href="#samples-fonts">ЗРАЗКИ ШРИФТІВ ТА ПІДПИСІВ</a></li>
+   </ul>
+   <p align="center"><b>ДОДАТКИ</b></p>
+   <ul class="ul-menue">
+     <li><a href="text/descs.html">ПОЯСНЕННЯ ДО УМОВНИХ ЗНАКІВ</a></li>
+     <li><a href="text/acro.html">ПЕРЕЛІК УМОВНИХ СКОРОЧЕНЬ</a></li>
+     <li><a href="plan1.html">ЗРАЗОК ОФОРМЛЕННЯ РАМКИ ПЛАНІВ МАСШТАБІВ 1:1000, 1:500</a></li>
+     <li><a href="plan2.html">ЗРАЗОК ОФОРМЛЕННЯ РАМКИ ПЛАНІВ МАСШТАБІВ 1:2000, 1:5000</a></font></li>
+   </ul>
+ </div>
+
+ <!-- Головна панель -->
+ <div class="mainbox">
+   <p align="center"><a href="images/titul.gif"><img src="images/titul_s.gif" width="142" height="243" border="1"></a></p>
+   <p align="left">УДК 528.97</p>
+   <p align="center"><b>Умовні знаки для топографічних планів масштабів 1:5000, 1:2000, 1:1000, 1:500.</b></p>
+   <p>К.: Міністерство екології та природних ресурсів України, 2001.</p>
+   <p align="left">У цьому виданні вміщено умовні знаки, назви та характеристики об’єктів місцевості,
+      що зображуються на топографічних планах масштабів 1:5000, 1:2000, 1:1000, 1:500,
+      та деякі умовні знаки і характеристики, які наносяться на плани за додатковими вимогами.
+    <br>У текстовій частині подано короткі пояснення та рекоментації щодо застосування
+     умовних знаків та їх характеристик, а також перелік скорочень, що застосовуються
+     для підписів об’ктів.
+    <br>Додаються також зразки оформлення рамок планів.
+    <br>Умовні знаки обов’язкові для використання в установах, організаціях та підприємствах, які
+   виконують роботи зі створення та оновлення топографічних планів.
+    <br>Умовні знаки розроблені в Українському державному науково-виробничому інституті зйомок
+  міст та геоінформатики ім.А.В.Шаха.
+    <br>Розробники: Гайдай С.А., Защипась С.Я., Кравчук Л.Т., Лизун І.В., Ношкалюк В.Л., Олійник О.В.
+    <br>Рецензенти: Джежора В.М., Дьогтяр А.М., Черемшинський М.Д., Шелудько В.Г.
+    <br>Комп’ютерне укладання та набір: Грищенко М.Г., Стецюк Р.П.
+    <br>Вводяться в дію з 01.01.2002р.
+    <br>З введенням в дію цих умовних знаків вважаються такими, що не застосовують “Условные
+знаки для топографических планов масштабов 1:5000, 1:2000, 1:1000, 1:500”, М.: Недра, 1989.
+    <br>© Мінекоресурсів України, 2001
+   </p>
+
+ <!-- Контейнери зі сканами -->
+ <section id="control_points">
+ <div class="container-fluid">
+  <div class="row">
+
+  <!-- Таблиця 1 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <h1>ГЕОДЕЗИЧНІ ПУНКТИ</h1>
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="4" class="table-num">Таблиця 1</th></tr>
+       <tr>
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="2" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th>1:5 000, 1:2 000</th>
+        <th>1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text">1</th>
+       <td class="topo-text">Пункти державної геодезичної мережі (в <em>чисельнику</em> дробу -
+         позначка центру, в <em>знаменнику</em> - позначка землі; <em>ліворуч</em> від знака - назва пункту)(* <a href="text/d1.html#21" target="_blank">[21-24]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/1-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/1-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">2</th>
+       <td class="topo-cell topo-text">Пункти державної геодезичної мережі <a href="text/d1.html#21" target="_blank">[21-25]</a>:<br>
+         1) на курганах (<em>цифри</em> ліворуч - висоти курганів в метрах)</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/2-1-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/2-1-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"></th>
+       <td class="topo-cell topo-text">2) на скелях останцях (<em>цифри</em> ліворуч - висоти останців у ментрах)</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/2-2-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/2-2-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text"></th>
+       <td class="topo-text">3) на будівлях (<em>цифри</em> та <em>букви</em> - характеристики будівель)</td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/2-3-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/2-3-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <td colspan="4" class="table-coment">(* При розміщенні характеристик цього та інших об'єктів необхідно керуватися п.17 пояснень до умовних знаківі</td>
+     </tr>
+   </tbody>
+ </table>
+ <br>
+ <h1>5</h1>
+   </div>
+
+   <!-- <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s1_1.gif">
+   </div> -->
+
+   <!-- Таблиця 2 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="4" class="table-num">Таблиця 2</th></tr>
+       <tr>
+        <!-- <th colspan="4">Таблиця 1</th> -->
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="2" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th>1:5 000, 1:2 000</th>
+        <th>1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text">3</th>
+       <td class="topo-text">Пункти геодезичних мереж згущення та їх номери <a href="text/d1.html#21" target="_blank">[21,26-30]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/3-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/3-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">4</th>
+       <td class="topo-cell topo-text">Пункти геодезичних мереж згущення <a href="text/d1.html#21" target="_blank">[21,26-30]</a>:<br>
+         1) на курганах (<em>цифри</em> ліворуч - висоти курганів в метрах)</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/4-1-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/4-1-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"></th>
+       <td class="topo-cell topo-text">2) на скелях останцях (варіанти підписів:
+         біля лівого верхнього знака в <em>чисельнику</em> дробу - номер пункту,
+         в <em>знаменнику</em> - позначки центру; біля решти в <em>чисельнику</em> дробу -
+         позначка центру, в <em>знаменнику</em> - позначка землі, <em>внизу</em> - висота останця в метрах,
+         <em>ліворуч</em> - номер пункту)</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/4-2-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/4-2-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">*</th>
+       <td class="topo-cell topo-text">3) у стінах будівель</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/4-3-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/4-3-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">5</th>
+       <td class="topo-cell topo-text">Точки планових зйомочних мереж <a href="text/d1.html#21" target="_blank">[21,31-33]</a>:<br>
+         1) тривалого закріплення на місцевості
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/5-1-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/5-1-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">*</th>
+       <td class="topo-cell topo-text">2) тимчасового закріплення на місцевості</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/5-2-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/5-2-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">*</th>
+       <td class="topo-cell topo-text">3) у стінах будівель</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/5-3-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/5-3-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text">*</th>
+       <td class="topo-text">4) на кутах капітальних будівель (координовані кути)</td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/5-4-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/5-4-500.jpg">
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <br>
+    <h1>6</h1>
+   </div>
+
+   <!-- <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s1_2.gif">
+   </div> -->
+
+   <!-- Таблиця 3 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="4" class="table-num">Таблиця 3</th></tr>
+       <tr>
+        <!-- <th colspan="4">Таблиця 1</th> -->
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="2" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th>1:5 000, 1:2 000</th>
+        <th>1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text">6</th>
+       <td class="topo-text">Пункти орієнтирні <a href="text/d1.html#34" target="_blank">[34]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/6-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/6-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">7</th>
+       <td class="topo-cell topo-text">Знаки межові - межові стовпи <a href="text/d1.html#35" target="_blank">[35]</a></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/7-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/7-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">8<br>*</th>
+       <td class="topo-cell topo-text">Стовпи закріплення проекту планування та їх номери <a href="text/d1.html#36" target="_blank">[36]</a></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/8-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/8-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">9<br>*</th>
+       <td class="topo-cell topo-text">Пункти закріпленнярозмічувальних мереж для будівництва,
+         поперечників і осей будинків та споруд <a href="text/d1.html#37" target="_blank">[37]</a></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/9-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/9-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">10</th>
+       <td class="topo-cell topo-text">Знаки нівелірні <a href="text/d1.html#38" target="_blank">[38-43]</a>:<br>
+         1) репери фундаментальні (в <em>чисельнику</em> дробу - позначка головки, в <em>заменнику</em> -
+         позначка землі, <em>ліворуч</em>- номер знака)
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-1-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-1-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"></th>
+       <td class="topo-cell topo-text">2) репери грунтові</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-2-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-2-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"></th>
+       <td class="topo-cell topo-text">3) репери грунтові координовані</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-3-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-3-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text">*</th>
+       <td class="topo-text">4) репери грунтові будівельні, тривалого закріплення</td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/10-4-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/10-4-500.jpg">
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <br>
+    <h1>7</h1>
+   </div>
+
+   <!-- <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s1_3.gif">
+   </div> -->
+
+   <!-- Таблиця 4 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="4" class="table-num">Таблиця 4</th></tr>
+       <tr>
+        <!-- <th colspan="4">Таблиця 1</th> -->
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="2" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th>1:5 000, 1:2 000</th>
+        <th>1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text"></th>
+       <td class="topo-text">5) репери та марки скельні (в <em>чисельнику</em> дробу - номер знака,
+          в <em>знаменнику</em> - позначка головки репера або центру марки )</td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/10-5-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/10-5-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">*</th>
+       <td class="topo-cell topo-text">6) репери та марки стінні</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-6-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-6-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"><br>*</th>
+       <td class="topo-cell topo-text">7) репери тимчасові</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-7-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/10-7-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text">11</th>
+       <td class="topo-text">Перетин лінії координатної сітки <a href="text/d1.html#44" target="_blank">[44]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/11-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/11-500.jpg">
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <br>
+    <h1>8</h1>
+   </div>
+
+   <!-- <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s1_4.gif">
+   </div> -->
+  </div>
+ </div>
+ </section>
+
+ <section id="buildings">
+ <div class="container-fluid">
+  <div class="row">
+
+    <!-- Таблиця 5 -->
+    <div class="col-xxl-6 col-xl-12 scan">
+      <h1>БУДІВЛІ, БУДИНКИ ТА ЇХ ЧАСТИНИ</h1>
+      <table class="topo-page center">
+       <thead>
+        <tr><th colspan="4" class="table-num">Таблиця 5</th></tr>
+        <tr>
+         <th rowspan="2" class="topo-4">№</th>
+         <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+         <th colspan="2" class="topo-60">УМОВНІ ЗНАКИ</th>
+        </tr>
+        <tr>
+         <th>1:5 000</th>
+         <th class="topo-40">1:2 000, 1:1 000, 1:500</th>
+        </tr>
+       </thead>
+       <tbody>
+      <tr>
+        <th class="topo-text">12</th>
+        <td class="topo-text">Будівлі житлові вогнестійкі (цегляні, кам'яні, бетонні, шлакоблочні тощо)
+          <a href="text/d2.html#45" target="_blank">[45-54]</a>: <br>1) одноповерхові<br>
+           2) багатоповерхові (<em>цифри</em> - кількість поверхів, <em>букви</em> - матеріал спорудження та призначення будівлі)</td>
+        <td class="topo-img">
+          <img class="img-fluid" src="images_small/12-5000.jpg">
+        </td>
+        <td class="topo-img">
+          <img class="img-fluid" src="images_small/12-2000.jpg">
+        </td>
+      </tr>
+      <tr>
+        <th class="topo-cell topo-text">13</th>
+        <td class="topo-cell topo-text">Будівлі житлові невогнестійкі (дерев'яні, саманні, глинобитні)
+          <a href="text/d2.html#45" target="_blank">[45-54]</a>: <br>1) одноповерхові<br>
+           2) багатоповерхові</td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/13-5000.jpg">
+        </td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/13-2000.jpg">
+        </td>
+      </tr>
+      <tr>
+        <th class="topo-cell topo-text">14</th>
+        <td class="topo-cell topo-text">Будівлі нежитлові вогнестійкі<a href="text/d2.html#45" target="_blank">[45-54]</a>: <br>1) одноповерхові<br>
+           2) багатоповерхові</td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/14-5000.jpg">
+        </td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/14-2000.jpg">
+        </td>
+      </tr>
+      <tr>
+        <th class="topo-cell topo-text">15</th>
+        <td class="topo-cell topo-text">Будівлі нежитлові невогнестійкі <a href="text/d2.html#45" target="_blank">[45-54]</a>: <br>1) одноповерхові<br>
+           2) багатоповерхові</td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/15-5000.jpg">
+        </td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/15-2000.jpg">
+        </td>
+      </tr>
+      <tr>
+        <th class="topo-cell topo-text">16</th>
+        <td class="topo-cell topo-text">Будівлі з різноповерховими частинами <a href="text/d2.html#52" target="_blank">[52-54]</a>: </td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/16-5000.jpg">
+        </td>
+        <td class="topo-cell topo-img">
+          <img class="img-fluid" src="images_small/16-2000.jpg">
+        </td>
+      </tr>
+      <tr>
+        <th class="topo-text">17</th>
+        <td class="topo-text">Будинки з колонами замість частини або всього першлго поверху <a href="text/d2.html#55" target="_blank">[55]</a>: </td>
+        <td class="topo-img">
+          <img class="img-fluid" src="images_small/17-5000.jpg">
+        </td>
+        <td class="topo-img">
+          <img class="img-fluid" src="images_small/17-2000.jpg">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <h1>9</h1>
+  </div>
+
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s2_1.gif">
+   </div>
+
+   <!-- Таблиця 6 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="5" class="table-num">Таблиця 6</th></tr>
+       <tr>
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="3" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th class="topo-20">1:5 000</th>
+        <th colspan="2">1:2 000, 1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text">18</th>
+       <td class="topo-text">Будинки, що будуються<a href="text/d2.html#56" target="_blank">[56]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/18-5000.jpg">
+       </td>
+       <td colspan="2" class="topo-img">
+         <img class="img-fluid" src="images_small/18-2000.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">19</th>
+       <td class="topo-cell topo-text">Будинки зруйновані та напівзруйновані<a href="text/d2.html#57" target="_blank">[57]</a></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/19-5000.jpg">
+       </td>
+       <td colspan="2" class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/19-2000.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">20<br>*</th>
+       <td class="topo-cell topo-text">Вимощення будинків (<em>букви</em> - матеріал покриття) та номери будинків<a href="text/d2.html#58" target="_blank">[58-59]</a>: <br>1) одноповерхові<br>
+          2) багатоповерхові</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/20-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/20-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/20-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">*</th>
+       <td class="topo-cell topo-text">Позначки висот: підлоги першого поверху (усередині контуру будівлі),
+         вимощення, землі або тротуару на куті будинку<a href="text/d2.html#60" target="_blank">[60]</a>: <br>1) одноповерхові<br>
+          2) багатоповерхові</td>
+       <td class="topo-cell topo-img">
+       </td>
+       <td class="topo-cell topo-img">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">21</th>
+       <td class="topo-cell topo-text">В'їзди під арками<a href="text/d2.html#61" target="_blank">[61]</a>: <br>1) одноповерхові<br>
+          2) багатоповерхові</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/21-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/21-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/21-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">22</th>
+       <td class="topo-cell topo-text">В'їзди на другий поверх (позначки висот внизу і наверху)<a href="text/d2.html#62" target="_blank">[62]</a>: </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/20-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/22-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/22-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">23</th>
+       <td class="topo-cell topo-text">Ґанки закриті<a href="text/d2.html#63" target="_blank">[63-65]</a>:<br>1) кам'яні<br>2) дерев'яні</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/20-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/23-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/23-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text">24</th>
+       <td class="topo-text">Ґанки відкриті, схои наверх<a href="text/d2.html#63" target="_blank">[63-65]</a>: </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/20-5000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/24-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/24-500.jpg">
+       </td>
+     </tr>
+   </tbody>
+ </table>
+ <br>
+ <h1>10</h1>
+ </div>
+
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s2_2.gif">
+   </div>
+
+   <!-- Таблиця 7 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="5" class="table-num">Таблиця 7</th></tr>
+       <tr>
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="3" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th class="topo-20">1:5 000</th>
+        <th class="topo-20">1:2 000</th>
+        <th>1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text">25</th>
+       <td class="topo-text">Входи відкриті в підземні частини будівель<a href="text/d2.html#63" target="_blank">[63-65]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">26</th>
+       <td class="topo-cell topo-text">Входи закриті в підземні частини будівель<a href="text/d2.html#63" target="_blank">[63-65]</a></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/26-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/26-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">27</th>
+       <td class="topo-cell topo-text">Входи на станції метрополітену<a href="text/d2.html#66" target="_blank">[66]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/27-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/27-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/27-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">28</th>
+       <td class="topo-cell topo-text">Вентилятори і запасні виходи метро та інших підземних споруд<a href="text/d2.html#67" target="_blank">[67]</a>: <br>1) наземні<br>
+          2) підземні (грати вентиляційних шахт)</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/28-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/28-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/28-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">29</th>
+       <td class="topo-cell topo-text">Наземні частини підземних споруд<a href="text/d2.html#68" target="_blank">[68]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">30</th>
+       <td class="topo-cell topo-text">Нависаючі частини будинків, які не мають опор (вітрини, виступи тощо)<a href="text/d2.html#69" target="_blank">[69]</a>: </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/30-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/30-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">31</th>
+       <td class="topo-cell topo-text">Переходи між будинками та галереї для транспортерів надземні (повітряні)<a href="text/d2.html#70" target="_blank">[70]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-1-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"></th>
+       <td class="topo-cell topo-text"></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-2-5000.jpg">
+       </td>
+       <td colspan="3" class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-2-2000.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text">32<br>*</th>
+       <td class="topo-text">Ніші та лоджії<a href="text/d2.html#71" target="_blank">[71]</a>: </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/32-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/32-500.jpg">
+       </td>
+     </tr>
+   </tbody>
+ </table>
+ <br>
+ <h1>11</h1>
+ </div>
+
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s2_3.gif">
+   </div>
+
+   <!-- Таблиця 8 -->
+   <div class="col-xxl-6 col-xl-12 scan">
+     <table class="topo-page center">
+      <thead>
+       <tr><th colspan="5" class="table-num">Таблиця 8</th></tr>
+       <tr>
+        <th rowspan="2" class="topo-4">№</th>
+        <th rowspan="2">НАЗВА ТА ХАРАКТЕРИСТИКА ОБ'ЄКТІВ</th>
+        <th colspan="3" class="topo-60">УМОВНІ ЗНАКИ</th>
+       </tr>
+       <tr>
+        <th class="topo-20">1:5 000</th>
+        <th class="topo-20">1:2 000</th>
+        <th>1:1 000, 1:500</th>
+       </tr>
+      </thead>
+      <tbody>
+     <tr>
+       <th class="topo-text">33</th>
+       <td class="topo-text">Балкони на стовпах і такі, що опираються на землю<a href="text/d2.html#72" target="_blank">[72]</a></td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">34</th>
+       <td class="topo-cell topo-text">Веранди та тераси<a href="text/d2.html#73" target="_blank">[73]</a></td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/26-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/26-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">35</th>
+       <td class="topo-cell topo-text">Навіси та перекриття між будинками<a href="text/d2.html#74" target="_blank">[74]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/27-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/27-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/27-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">36</th>
+       <td class="topo-cell topo-text">Навіси для автомобільних ваг<a href="text/d2.html#75" target="_blank">[75]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/28-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/28-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/28-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">37</th>
+       <td class="topo-cell topo-text">1) Навіси на стовпах<a href="text/d2.html#74" target="_blank">[74, 76]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text"></th>
+       <td class="topo-cell topo-text">2) Навіси на підкосах та навіси-козирки<a href="text/d2.html#74" target="_blank">[74, 76]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/29-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">38<br>*</th>
+       <td class="topo-cell topo-text">Павльйони, альтанки<a href="text/d2.html#77" target="_blank">[77]</a>: </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/30-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/30-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-cell topo-text">39<br>*</th>
+       <td class="topo-cell topo-text">Ілюмінатори<a href="text/d2.html#78" target="_blank">[78-78]</a>:</td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-1-5000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-2000.jpg">
+       </td>
+       <td class="topo-cell topo-img">
+         <img class="img-fluid" src="images_small/31-500.jpg">
+       </td>
+     </tr>
+     <tr>
+       <th class="topo-text">40<br>*</th>
+       <td class="topo-text">Приямки (приямники)<a href="text/d2.html#78" target="_blank">[78]</a>: </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/25-5000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/32-2000.jpg">
+       </td>
+       <td class="topo-img">
+         <img class="img-fluid" src="images_small/32-500.jpg">
+       </td>
+     </tr>
+   </tbody>
+ </table>
+ <br>
+ <h1>12</h1>
+ </div>
+
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s2_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s2_5.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="cult">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s3_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s3_2.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="samples-maps">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s4_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s4_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s4_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s4_4.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="industrial">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_6.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_7.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_8.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_9.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_10.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_11.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_12.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_13.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_14.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_15.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_16.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s5_17.gif">
+  </div>
+ </div>
+ </section>
+
+ <section id="railways">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s6_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s6_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s6_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s6_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s6_5.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="roads">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s7_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s7_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s7_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s7_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s7_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s7_6.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="gidrography">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_6.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_7.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s8_8.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="gidro-industrial">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_6.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_7.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_8.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_9.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_10.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_11.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_12.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_13.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_14.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s9_15.gif">
+   </div>
+ </div>
+ </section>
+
+ <section id="bridges">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s10_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s10_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s10_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s10_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s10_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s10_6.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="bridge-samples">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s11_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s11_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s11_3.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="relief">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s12_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s12_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s12_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s12_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s12_5.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="vegetation">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_6.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_7.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_8.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_9.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_10.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_11.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s13_12.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="soils">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s14_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s14_2.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="swamps">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s15_1.gif">
+   </div>
+ </div>
+ </section>
+
+ <section id="samples-combine">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s16_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s16_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s16_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s16_4.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s16_5.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s16_6.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="fences">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s17_1.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section id="borders">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s18_1.gif">
+   </div>
+ </div>
+ </section>
+
+ <section id="samples-fonts">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s19_1.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s19_2.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s19_3.gif">
+   </div>
+   <div class="col-xxl-6 col-xl-12 scan">
+     <img class="img-fluid" src="images/s19_4.gif">
+   </div>
+  </div>
+ </div>
+ </section>
+
+</div>
+</body>
